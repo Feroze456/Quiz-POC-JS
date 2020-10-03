@@ -17,7 +17,7 @@
 
         <form class="form-inline" action="loging.html">
 
-            <input type="submit" name="" class="bg-info text-white p-1" value="Logout" /><br />
+            <input type="submit" (click)="logout()" name="" class="bg-info text-white p-1" value="Logout" /><br />
 
         </form>
     </nav>
@@ -30,17 +30,17 @@
                 <div id="quiz"></div>
                 <button id="submit">Submit</button>
                 <button id="previous">Previous</button>
-                <button id="next" >Next </button>
+                <button id="next">Next </button>
             </div>
             <div class="col">
                 <div id="tryAgin" class="try_agin"></div>
                 <div id="correction"></div>
-                <div id="answer" ></div>
+                <div id="answer"></div>
                 <div id="results"></div>
             </div>
         </div>
     </div>
-<script src="dashboard.js"></script>
+    <script src="dashboard.js"></script>
 </body>
 
 </html>
