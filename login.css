@@ -1,0 +1,67 @@
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+.guessSubmit {
+    background-image: linear-gradient(to right, #bd46a3 0%, #5c34c9 51%, #bd46a3 100%)}
+.guessSubmit {  
+    flex: 1 1 auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 1.7s ease;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 5px;  
+    padding: 5px;;
+}
+.table-padding{
+padding: 10px;
+border-collapse: inherit;
+
+}
+.login-blk{
+    /* background: #DE6262;   */
+    /* fallback for old browsers */
+ background: linear-gradient(to bottom, #109c85, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   position:absolute; 
+    height:100%; 
+    width:100%;
+     padding : 100px 0;
+ 
+
+ }
+ 
+ .banner{background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  
+  no-repeat left bottom; background-size:cover;
+   min-height:500px; 
+   border-radius: 0 10px 10px 0; 
+   padding:0;}
+ .container{
+     background:#fff; 
+     border-radius: 11px;
+      box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+ .login{
+     padding: 52px 31px; 
+     position:relative;
+    }
+  h2{margin-bottom:30px;
+     font-weight:802; 
+     font-size:29px; 
+     color: #DE6262;
+    }
+ h2:after{content:" ";
+     width:100px; height:5px;
+      background:#FEB58A;
+       display:block; 
+      margin-top:21px;
+       border-radius:4px; 
+      margin-left:auto;
+      margin-right:auto
+    }
+ .btn-login{
+     background: #DE6262;
+     color:#fff;
+      font-weight:600;
+    }
+ 

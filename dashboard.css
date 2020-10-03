@@ -1,0 +1,159 @@
+.body-align{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    padding: 80px;
+
+    
+}
+.question{
+    font-weight: 600;
+}
+.answers {
+    margin-bottom: 20px;
+   padding: 14px;
+   
+}
+#submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #297;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: #3a8;
+}
+form{
+    margin-left: 500px;
+}
+.try_agin{
+
+    margin-top: 350px;
+}
+.question {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.answers {
+    margin-bottom: 15px;
+    text-align: left;
+    display: inline-block;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#next {
+    position: absolute;
+    cursor: pointer;
+    top: 270px;
+    right: 200px;
+    background-color: #bf5dec;
+    color: white;
+    padding: 10px;
+
+}
+
+#previous {
+    position: absolute;
+    cursor: pointer;
+    top: 270px;
+    right: 276px;
+    background-color: #492894;
+    color: white;
+    padding: 10px;
+
+}
+
+#submit {
+    position: absolute;
+    cursor: pointer;
+    top: 270px;
+    right: 170px;
+}
+
+#correction {
+    top: 300px;
+    text-align: center;
+    font-size: 20px;
+    left: 100px;
+    position: absolute;
+}
+
+button:hover {
+    background-color: #90ee90;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0s;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: absolute;
+    height: 350px;
+    width: 700px;
+    display: block;
+    margin-top: 40px;
+    border: 2px solid #90ee90;
+    overflow: auto;
+    top: 70px;
+    left: 100px;
+    text-align: left;
+
+}
+#username{
+    color: #f1f1f1;
+}
+
+#number {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    width: 200px;
+    height: 100px;
+    color: #fff;
+    size: 100px
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.banner{
+    /* background-image: url("bg2.jpg"); */
+    background-color: #2c3e50;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+ 
+  
+}
+   /* // background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  } */

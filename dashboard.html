@@ -1,0 +1,46 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body class="banner">
+    <nav class="navbar navbar-light bg-info justify-content-between">
+        <div id="count" class="text-white">Start</div>
+        <h3 class="navbar-brand" id="username" class="text-white"></h3>
+
+
+        <form class="form-inline" action="loging.html">
+
+            <input type="submit" name="" class="bg-info text-white p-1" value="Logout" /><br />
+
+        </form>
+    </nav>
+    <div class="body-align">
+        <div class="row">
+            <div id="number"> Question 1</div>
+
+            <div class="col">
+
+                <div id="quiz"></div>
+                <button id="submit">Submit</button>
+                <button id="previous">Previous</button>
+                <button id="next" >Next </button>
+            </div>
+            <div class="col">
+                <div id="tryAgin" class="try_agin"></div>
+                <div id="correction"></div>
+                <div id="answer" ></div>
+                <div id="results"></div>
+            </div>
+        </div>
+    </div>
+<script src="dashboard.js"></script>
+</body>
+
+</html>
