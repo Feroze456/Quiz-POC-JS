@@ -1,5 +1,3 @@
-
-
 function loginSumbit() {
     var user_name = localStorage.getItem('userName');
     var pass_word = localStorage.getItem('password');

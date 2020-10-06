@@ -213,7 +213,6 @@ var myQuestions = true;
             //let correct = currentQuestion.answers[currentQuestion.correctAnswer];
             //answerContainer.style.color = "lightgreen";
 
-
             // if answer is correct
             if (userAnswer === currentQuestion.correctAnswer) {
                 // add to the number of correct answers
@@ -232,15 +231,7 @@ var myQuestions = true;
             //document.getElementById("correction").innerHTML = currentQuestion.correctAnswer;
 
         })
-
-        // show number of correct answers out of total
-        // if (numCorrect > (myQuestions.lenght) / 2) {
-        //     resultsContainer.innerHTML = `you Scored ${numCorrect} out of ${myQuestions.length}.   KEEP IT UP`;
-        // }
-        // else {
-
-        //     resultsContainer.innerHTML = `you Scored ${numCorrect} out of ${myQuestions.length}.  PUT MORE EFFORT`;
-        // }
+        
         resultsContainer.innerHTML = numCorrect + ' out of ' + myQuestions.length;
         {
             numCorrect <= 4 ? document.getElementById("tryAgin").innerHTML = '<h3 class="text-danger"> better luck next time</h3> <img src="dislike.png" width="100px"  height="100px">'

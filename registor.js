@@ -14,20 +14,17 @@ function registorSumbit() {
         return false;
 
     }
-
     else if (password.length < 4) {
         alert("password is 4 chartecrt required");
         return false;
 
     }
-
     else {
         var obj={
             "user_name": user_name,
             "password": password,
          
-          }
-         // alert(obj.user_name)
+          }      
         alert("Successfully")
         localStorage.setItem('userName',obj.user_name);
         localStorage.setItem('password', obj.password);
